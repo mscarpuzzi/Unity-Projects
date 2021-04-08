@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62aa3dad63718da4384ff6bafd0ae0f1, type: 3}
+  m_Name: WeatherMakerPerformanceProfile_VR_Fastest
+  m_EditorClassIdentifier: 
+  EnableVolumetricClouds: 0
+  VolumetricCloudDownsampleScale: 4
+  VolumetricCloudTemporalReprojectionSize: 0
+  VolumetricCloudDownsampleScalePostProcess: 0
+  VolumetricCloudWeatherMapSize: 128
+  VolumetricCloudShadowTextureSize: 128
+  VolumetricCloudSampleCount:
+    Minimum: 0
+    Maximum: 0
+  VolumetricCloudMaxRayLengthMultiplier: 10
+  VolumetricCloudRaymarchMultiplier: 2
+  VolumetricCloudRayDither: 0.001
+  VolumetricCloudRaymarchSkipThreshold: 0
+  VolumetricCloudRaymarchMaybeInCloudStepMultiplier: 0.01
+  VolumetricCloudRaymarchInCloudStepMultiplier: 0.01
+  VolumetricCloudRaymarchSkipMultiplier: 1.01
+  VolumetricCloudRaymarchSkipMultiplierMaxCount: 1
+  VolumetricCloudNoiseMultiplier: 1
+  VolumetricCloudLod:
+    Minimum: 0
+    Maximum: 0
+  VolumetricCloudDirLightSampleCount: 0
+  VolumetricCloudDirLightStepMultiplier: 1
+  VolumetricCloudDirLightLod: 1
+  VolumetricCloudDirLightSampleDetails: 0
+  VolumetricCloudShadowSampleCount: 0
+  VolumetricCloudDirLightRaySampleCount: 0
+  VolumetricCloudDirLightRayDither: 0.1
+  VolumetricCloudShadowDownsampleScale: 0
+  VolumetricCloudAllowReflections: 0
+  VolumetricCloudReflectionShadows: 0
+  AtmosphereQuality: 0
+  AtmosphericLightShaftSampleCount: 0
+  AtmosphericLightShaftMaxRayLength: 100
+  AuroraSampleCount: 34
+  AuroraSubSampleCount: 3
+  EnablePrecipitationCollision: 1
+  EnablePerPixelLighting: 1
+  FogDownsampleScale: 2
+  FogDownsampleScaleFullScreenShafts: 2
+  FogTemporalReprojectionSize: 0
+  EnableFogLights: 0
+  FogFullScreenSunShaftSampleCount: 16
+  FogNoiseSampleCount: 32
+  FogShadowSampleCount: 0
+  WaterEnableCaustics: 1
+  WaterEnableRefraction: 1
+  WaterEnableFoam: 1
+  IgnoreReflectionProbes: 1
+  ReflectionTextureSize: 512
+  ReflectionShadows: 0
+  EnableTonemap: 1

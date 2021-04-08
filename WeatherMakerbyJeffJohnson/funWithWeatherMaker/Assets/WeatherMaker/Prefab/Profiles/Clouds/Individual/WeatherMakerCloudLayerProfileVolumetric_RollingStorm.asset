@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c50d1a0231b929d499944fc9f1d410b3, type: 3}
+  m_Name: WeatherMakerCloudLayerProfileVolumetric_RollingStorm
+  m_EditorClassIdentifier: 
+  CloudNoiseShape: {fileID: 11700000, guid: be1ad71395d88014287b3a86a01067da, type: 2}
+  CloudNoiseDetail: {fileID: 11700000, guid: 95078e308f795af4ab9c5814d9ee341d, type: 2}
+  CloudNoiseCurl: {fileID: 2800000, guid: bbe7762b406bdb2418b546943eed56c9, type: 3}
+  CloudNoiseScale: {x: 0.69, y: 3, z: 0.5, w: 0.5}
+  CloudNoiseScalar:
+    Minimum: 0.8
+    Maximum: 1.4
+  CloudNoiseDetailPower:
+    Minimum: 0.4
+    Maximum: 0.5
+  CloudHeightNoisePowerVolumetric:
+    Minimum: 5
+    Maximum: 8
+  CloudOpticalDistanceMultiplier: 15
+  CloudHorizonFadeMultiplier: 0
+  CloudRayOffset: 0.2
+  CloudMinRayY: -0.01
+  CloudMinRayMarchMultiplier: 1
+  CloudRayMarchParamers: {x: 512, y: 512, z: 0}
+  CloudShapeAnimationVelocity: {x: 16, y: -39, z: 17}
+  CloudDetailAnimationVelocity: {x: 15, y: -55, z: 123}
+  CloudColor: {r: 1, g: 1, b: 1, a: 1}
+  CloudEmissionColor: {r: 0.028222308, g: 0.039513465, b: 0.04411763, a: 0}
+  CloudDirLightGradientColor:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 0, g: 0, b: 0, a: 1}
+    key2: {r: 1, g: 1, b: 1, a: 0}
+    key3: {r: 1, g: 1, b: 1, a: 0}
+    key4: {r: 1, g: 1, b: 1, a: 0}
+    key5: {r: 1, g: 1, b: 1, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 22937
+    ctime2: 42598
+    ctime3: 65535
+    ctime4: 65535
+    ctime5: 65535
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  CloudDirLightMultiplier: 1.5
+  CloudLightDitherLevel: 0.0008
+  CloudPointSpotLightMultiplier: 1
+  CloudLightAbsorption: 4
+  CloudHenyeyGreensteinPhase: {x: 0.7, y: -0.4, z: 0.01, w: 0.1}
+  CloudDirLightIndirectMultiplier: 0
+  CloudAmbientGroundIntensity: 1
+  CloudAmbientSkyIntensity: 5
+  CloudSkyIntensity: 0.4
+  CloudAmbientGroundHeightMultiplier: 0.3
+  CloudAmbientSkyHeightMultiplier: 0.5
+  CloudGradientStratus:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 1, g: 1, b: 1, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 6455
+    ctime2: 8244
+    ctime3: 14713
+    ctime4: 65535
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
+  CloudGradientStratoCumulus:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 1, g: 1, b: 1, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 15848
+    ctime2: 20604
+    ctime3: 33554
+    ctime4: 65535
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
+  CloudGradientCumulus:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 1, g: 1, b: 1, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 22937
+    ctime2: 49413
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  CloudShapeNoiseMin:
+    Minimum: 0.03547039
+    Maximum: 0.055470385
+  CloudShapeNoiseMax:
+    Minimum: 0.55
+    Maximum: 0.65
+  CloudPowderMultiplier:
+    Minimum: 0
+    Maximum: 0
+  CloudBottomFade:
+    Minimum: 0.15
+    Maximum: 0.2
+  CloudCover:
+    Minimum: 0.9
+    Maximum: 1
+  CloudCoverSecondary:
+    Minimum: 0.3
+    Maximum: 0.4
+  CloudType:
+    Minimum: 0.7
+    Maximum: 0.9
+  CloudTypeSecondary:
+    Minimum: 0
+    Maximum: 0
+  CloudDensity:
+    Minimum: 1
+    Maximum: 1
+  FlatLayerMask: 9
+  CloudDirLightRaySpread: 0.6
+  CloudDirLightRayBrightness: 0
+  CloudDirLightRayStepMultiplier: 21
+  CloudDirLightRayDecay: 0.9
+  CloudDirLightRayTintColor: {r: 1, g: 1, b: 1, a: 1}

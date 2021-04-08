@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba6d3094cf27f44781e52d9fd92adab, type: 3}
+  m_Name: WeatherMakerCloudProfile_HeavyScattered
+  m_EditorClassIdentifier: 
+  CloudLayer1: {fileID: 11400000, guid: f5300efc85614ff468ac75da763a3262, type: 2}
+  CloudLayer2: {fileID: 11400000, guid: 2f55f6d4d5e7bef4daefe5602d970e03, type: 2}
+  CloudLayer3: {fileID: 11400000, guid: 2f55f6d4d5e7bef4daefe5602d970e03, type: 2}
+  CloudLayer4: {fileID: 11400000, guid: cacfdf0c12f0a6e4b90a13ca04a51a1f, type: 2}
+  CloudLayerVolumetric1: {fileID: 11400000, guid: 33652d13bc873c9448bd7cfb71183eec,
+    type: 2}
+  DirectionalLightIntensityMultiplier: 1
+  DirectionalLightScatterMultiplier: 0.5
+  CloudLightStrength: 1
+  WeatherMapRenderTextureOverride: {fileID: 0}
+  WeatherMapRenderTextureMask: {fileID: 0}
+  WeatherMapRenderTextureMaskVelocity: {x: 0, y: 0}
+  WeatherMapRenderTextureMaskOffset: {x: 0, y: 0}
+  WeatherMapRenderTextureMaskOffsetClamp: {x: -1.1, y: 1.1}
+  WeatherMapScale: {x: 1, y: 1, z: 0.00001}
+  WeatherMapCloudCoverageVelocity: {x: 33, y: -22, z: 0}
+  WeatherMapCloudCoverageScale:
+    Minimum: 24
+    Maximum: 28
+  WeatherMapCloudCoverageRotation:
+    Minimum: -30
+    Maximum: 30
+  WeatherMapCloudCoverageAdder:
+    Minimum: 0
+    Maximum: 0
+  WeatherMapCloudCoveragePower:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudTypeVelocity: {x: 33, y: 22, z: 0}
+  WeatherMapCloudTypeScale:
+    Minimum: 6
+    Maximum: 9
+  WeatherMapCloudTypeRotation:
+    Minimum: -30
+    Maximum: 30
+  WeatherMapCloudTypeAdder:
+    Minimum: -0.1
+    Maximum: -0.15
+  WeatherMapCloudTypePower:
+    Minimum: 2
+    Maximum: 2
+  CloudHeight:
+    Minimum: 1500
+    Maximum: 2000
+  CloudHeightTop:
+    Minimum: 4000
+    Maximum: 5000
+  CloudPlanetRadius: 0

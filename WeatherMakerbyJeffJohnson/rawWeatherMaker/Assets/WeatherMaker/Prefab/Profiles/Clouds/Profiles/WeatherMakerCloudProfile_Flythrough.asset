@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba6d3094cf27f44781e52d9fd92adab, type: 3}
+  m_Name: WeatherMakerCloudProfile_Flythrough
+  m_EditorClassIdentifier: 
+  CloudLayer1: {fileID: 11400000, guid: 2f55f6d4d5e7bef4daefe5602d970e03, type: 2}
+  CloudLayer2: {fileID: 11400000, guid: 2f55f6d4d5e7bef4daefe5602d970e03, type: 2}
+  CloudLayer3: {fileID: 11400000, guid: 2f55f6d4d5e7bef4daefe5602d970e03, type: 2}
+  CloudLayer4: {fileID: 11400000, guid: 7d3cba4dedac205458216a1ca2ea4c45, type: 2}
+  CloudLayerVolumetric1: {fileID: 11400000, guid: 885bf0272235dcd48b208a075ad76079,
+    type: 2}
+  DirectionalLightIntensityMultiplier: 1
+  DirectionalLightScatterMultiplier: 0.8
+  CloudLightStrength: 1
+  WeatherMapRenderTextureOverride: {fileID: 0}
+  WeatherMapRenderTextureMask: {fileID: 0}
+  WeatherMapRenderTextureMaskVelocity: {x: 0, y: 0}
+  WeatherMapRenderTextureMaskOffset: {x: 0, y: 0}
+  WeatherMapRenderTextureMaskOffsetClamp: {x: -1.1, y: 1.1}
+  WeatherMapScale: {x: 1, y: 1, z: 0.000002}
+  WeatherMapCloudCoverageVelocity: {x: 45, y: 44, z: 0}
+  WeatherMapCloudCoverageScale:
+    Minimum: 14
+    Maximum: 20
+  WeatherMapCloudCoverageRotation:
+    Minimum: -30
+    Maximum: 30
+  WeatherMapCloudCoverageAdder:
+    Minimum: 0
+    Maximum: 0
+  WeatherMapCloudCoveragePower:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudTypeVelocity: {x: 66, y: -88, z: 0}
+  WeatherMapCloudTypeScale:
+    Minimum: 10
+    Maximum: 14
+  WeatherMapCloudTypeRotation:
+    Minimum: -30
+    Maximum: 30
+  WeatherMapCloudTypeAdder:
+    Minimum: 0
+    Maximum: 0
+  WeatherMapCloudTypePower:
+    Minimum: 1
+    Maximum: 1
+  CloudHeight:
+    Minimum: 1500
+    Maximum: 2000
+  CloudHeightTop:
+    Minimum: 8000
+    Maximum: 10000
+  CloudPlanetRadius: 6371000
